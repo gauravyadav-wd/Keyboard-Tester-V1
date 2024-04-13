@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <h2 class="clear">Esc for clear</h2>
+    <div class="text-container">
+      <div class="text"></div>
+    </div>
+    <div class="keyboard">
+      <div class="upper-section">
+        <div class="col-1">
+          <div class="Escape k-btn">Esc</div>
+          <div class="f1 k-btn">F1</div>
+          <div class="f2 k-btn">F2</div>
+          <div class="f3 k-btn">F3</div>
+          <div class="f4 k-btn">F4</div>
+          <div class="f5 k-btn">F5</div>
+          <div class="f6 k-btn">F6</div>
+          <div class="f7 k-btn">F7</div>
+          <div class="f8 k-btn">F8</div>
+          <div class="f9 k-btn">F9</div>
+          <div class="f10 k-btn">F10</div>
+          <div class="f11 k-btn">F11</div>
+          <div class="f12 k-btn">f12</div>
+        </div>
+        <!-- <div class="col-2">
+          <div class="print-screen k-btn">print<br />screen</div>
+          <div class="scroll-lock k-btn">Scroll lock</div>
+          <div class="pause-break k-btn">Pause Break</div>
+        </div>
+        <div class="col-3">
+          <div class="lock-1 k-btn">o</div>
+          <div class="lock-2 k-btn">o</div>
+          <div class="lock-3 k-btn">o</div>
+        </div> -->
+      </div>
+      <div class="lower-section">
+        <div class="col-1">
+          <div class="line-1">
+            <div class="Backquote k-btn">`</div>
+            <div class="Digit1 k-btn">1</div>
+            <div class="Digit2 k-btn">2</div>
+            <div class="Digit3 k-btn">3</div>
+            <div class="Digit4 k-btn">4</div>
+            <div class="Digit5 k-btn">5</div>
+            <div class="Digit6 k-btn">6</div>
+            <div class="Digit7 k-btn">7</div>
+            <div class="Digit8 k-btn">8</div>
+            <div class="Digit9 k-btn">9</div>
+            <div class="Digit0 k-btn">0</div>
+            <div class="Minus k-btn">-</div>
+            <div class="Equal k-btn">=</div>
+            <div class="Backspace k-btn-special">backspace</div>
+          </div>
+          <div class="line-2">
+            <div class="Tab k-btn-special">Tab</div>
+            <div class="q k-btn">Q</div>
+            <div class="w k-btn">W</div>
+            <div class="e k-btn">E</div>
+            <div class="r k-btn">R</div>
+            <div class="t k-btn">T</div>
+            <div class="y k-btn">Y</div>
+            <div class="u k-btn">U</div>
+            <div class="i k-btn">I</div>
+            <div class="o k-btn">O</div>
+            <div class="p k-btn">P</div>
+            <div class="BracketLeft k-btn">[</div>
+            <div class="BracketRight k-btn">]</div>
+            <div class="Enter k-btn-special">Enter</div>
+          </div>
+          <div class="line-3">
+            <div class="CapsLock k-btn-special">Capslock</div>
+            <div class="a k-btn">A</div>
+            <div class="s k-btn">S</div>
+            <div class="d k-btn">D</div>
+            <div class="f k-btn">F</div>
+            <div class="g k-btn">G</div>
+            <div class="h k-btn">H</div>
+            <div class="j k-btn">J</div>
+            <div class="k k-btn">K</div>
+            <div class="l k-btn">L</div>
+            <div class="Semicolon k-btn">;</div>
+            <div class="Quote k-btn">'</div>
+            <div class="Backslash k-btn">\</div>
+          </div>
+          <div class="line-4">
+            <div class="ShiftLeft k-btn-special">Shift</div>
+            <div class="z k-btn">Z</div>
+            <div class="x k-btn">X</div>
+            <div class="c k-btn">C</div>
+            <div class="v k-btn">V</div>
+            <div class="b k-btn">B</div>
+            <div class="n k-btn">N</div>
+            <div class="m k-btn">M</div>
+            <div class="Comma k-btn">,</div>
+            <div class="Period k-btn">.</div>
+            <div class="Slash k-btn">/</div>
+            <div class="ShiftRight k-btn-special">Shift</div>
+          </div>
+          <div class="line-5">
+            <div class="ControlLeft k-btn">Ctrl</div>
+            <div class="windows k-btn">win</div>
+            <div class="AltLeft k-btn">Alt</div>
+            <div class="Space k-btn"></div>
+            <div class="AltRight k-btn">Alt</div>
+            <div class="windows k-btn">Win</div>
+            <div class="menu k-btn-special">Menu</div>
+            <div class="ControlRight k-btn">Ctrl</div>
+          </div>
+        </div>
+        <!-- <div class="col-2">
+          <div class="row-1">
+            <div class="line-1">
+              <div class="Insert k-btn">Insert</div>
+              <div class="Home k-btn">Home</div>
+              <div class="PageUp k-btn">Page up</div>
+            </div>
+            <div class="line-2">
+              <div class="Delete k-btn">Delete</div>
+              <div class="End k-btn">End</div>
+              <div class="PageDown k-btn">Page Down</div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="line-1">
+              <div class="ArrowUp k-btn">up</div>
+            </div>
+            <div class="line-2">
+              <div class="ArrowLeft k-btn">left</div>
+              <div class="ArrowDown k-btn">down</div>
+              <div class="ArrowRight k-btn">right</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="line1">
+            <div class="numlock k-btn">Num Lock</div>
+            <div class="slash-2 k-btn">/</div>
+            <div class="multiply k-btn">*</div>
+            <div class="minus k-btn">-</div>
+          </div>
+          <div class="line2">
+            <div class="seven k-btn">7</div>
+            <div class="8 k-btn">8</div>
+            <div class="9 k-btn">9</div>
+            <div class="plus k-btn">+</div>
+          </div>
+          <div class="line3">
+            <div class="four k-btn">4</div>
+            <div class="5 k-btn">5</div>
+            <div class="6 k-btn">6</div>
+          </div>
+          <div class="line4">
+            <div class="one k-btn">1</div>
+            <div class="2 k-btn">2</div>
+            <div class="3 k-btn">3</div>
+          </div>
+          <div class="line5">
+            <div class="0 k-btn">0</div>
+            <div class="del k-btn">Del</div>
+            <div class="enter k-btn">Enter</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

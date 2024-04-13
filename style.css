@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: steelblue;
+}
+
+.active {
+  background-color: yellowgreen !important;
+}
+
+.text-container {
+  width: 840px;
+  padding: 20px;
+  margin: auto;
+  height: 180px;
+  background-color: black;
+}
+.text {
+  width: 840px;
+  height: 180px;
+  background-color: white;
+}
+
+.clear {
+  position: absolute;
+  left: 50%;
+  color: black;
+  top: 25%;
+  transform: translate(-50%);
+}
+
+.keyboard {
+  background-color: #c8cccd;
+  font-size: 13px;
+  height: 350px;
+  max-width: 840px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.upper-section .col-1 {
+  display: flex;
+  justify-content: center;
+  max-width: 840px;
+}
+
+/* .upper-section .col-2 {
+  display: flex;
+  text-align: center;
+} */
+
+/* .inner-col-1,
+.inner-col-2,
+.inner-col-3,
+.inner-col-4 {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .upper-section .col-2,
+.upper-section .col-3 {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+} */
+
+.k-btn {
+  background-color: black;
+  color: #f8f9f5;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.k-btn-special {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: #f8f9f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  flex: 1;
+}
+
+.lower-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower-section .col-1 {
+  /* width: 60%; */
+}
+/* 
+.lower-section .col-2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 275px;
+  align-items: center;
+}
+
+.lower-section .col-3 {
+  width: 20%;
+} */
+
+/* .lower-section .col-1 > div
+.lower-section .col-2 .row-1 > div,
+.lower-section .col-2 .row-2 > div,
+.lower-section .col-3 > div {
+  display: flex;
+} */
+
+.lower-section .col-1 > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .lower-section .col-2 .row-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.lower-section .col-2 .row-2 .line-2 {
+  display: flex;
+} */
+
+.Space {
+  justify-self: stretch;
+  align-self: stretch;
+  /* background-color: yellowgreen; */
+  width: calc(40%);
+}
+
+/* .enter,
+.numlock,
+.shift {
+  flex: 1;
+}
+.plus {
+  flex: 1;
+}
+
+.four,
+.one {
+  flex: 1;
+} */
+
+.Escape {
+  flex: 1;
+}
